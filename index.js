@@ -13,7 +13,7 @@ app.use(express.json());
 app.use(
   cors({
     origin: [
-      "http://localhost:5173",
+      "startling-frangipane-cf4918.netlify.app",
       "https://ticket-booking-platform-olive.vercel.app",
     ],
     credentials: true,
