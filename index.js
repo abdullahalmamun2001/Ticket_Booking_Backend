@@ -13,8 +13,8 @@ app.use(express.json());
 app.use(
   cors({
     origin: [
-      "startling-frangipane-cf4918.netlify.app",
-      "https://ticket-booking-platform-olive.vercel.app",
+      process.env.origin,
+      
     ],
     credentials: true,
   })
