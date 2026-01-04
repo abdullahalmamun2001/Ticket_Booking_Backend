@@ -13,8 +13,8 @@ app.use(express.json());
 app.use(
   cors({
     origin: [
-      process.env.origin,
-      process.env.origin_two,
+      "http://localhost:5173",
+      "startling-frangipane-cf4918.netlify.app",
       
     ],
     credentials: true,
