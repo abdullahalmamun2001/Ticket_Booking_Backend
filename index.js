@@ -14,7 +14,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173",
-      "startling-frangipane-cf4918.netlify.app",
+      "https://fabulous-wisp-dc2482.netlify.app",
       
     ],
     credentials: true,
